@@ -14,7 +14,7 @@
       "width": 80,
       "padding": 15,
       "gutter": 20,
-      "breakpoint": "lg",
+      "breakpoint": "sm",
       "scrollbar": "thin",
       "title": "Memento Mori",
       "overscroll": false,
@@ -79,7 +79,7 @@
         "newTab": false
       },
       "order": ["clock", "date", "search", "greeting", "toolbar"],
-      "edit": true
+      "edit": false
     },
     "bookmark": {
       "size": 75,
@@ -90,7 +90,7 @@
       "orientation": "bottom",
       "style": "block",
       "newTab": false,
-      "edit": true,
+      "edit": false,
       "add": false,
       "show": true,
       "item": {}
@@ -99,7 +99,7 @@
       "area": { "justify": "center" },
       "order": "header-body",
       "name": { "size": 100 },
-      "edit": true,
+      "edit": false,
       "add": false,
       "toolbar": { "size": 100 }
     },
@@ -159,7 +159,7 @@
           "vignette": { "opacity": 20, "start": 90, "end": 40 }
         },
         "video": {
-          "url": "https://github.com/zombieFox/nightTabAssets/blob/main/videos/1626342620002.mp4?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/videos/1652784465880.mp4?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/videos/1626352146818.mp4?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/videos/1627763800511.mp4?raw=true",
+          "url": "https://github.com/zombieFox/nightTabAssets/blob/main/videos/1626342620002.mp4?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/videos/1652784465880.mp4?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/videos/1626352146818.mp4?raw=true",
           "blur": 0,
           "grayscale": 0,
           "scale": 100,
@@ -680,7 +680,7 @@
         }
       ],
       "toolbar": { "openAll": { "show": true }, "collapse": { "show": true } },
-      "collapse": false
+      "collapse": true
     },
     {
       "name": { "text": "Dev sites", "show": true },
